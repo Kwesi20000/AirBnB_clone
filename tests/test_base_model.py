@@ -139,7 +139,8 @@ class TestBaseModel_save(unittest.TestCase):
 
 
 class TestBaseModel_to_dict(unittest.TestCase):
-    """The class Unittests for testing to_dict method of the BaseModel class."""
+    """The class Unittests for testing to_dict method of the
+    BaseModel class."""
 
     def test_to_dict_type(self):
         bm = BaseModel()
